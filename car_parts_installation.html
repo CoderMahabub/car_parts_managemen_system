@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+	<title>Car Parts Management System</title>
+	<link rel="stylesheet" type="text/css" href="carpartsorderinfo.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="ForestOffice.css" media="all" />
+</head>
+<body>
+	<div class="HeaderSection templete clear">
+		<div class="logo">
+			<img src="photos/Mangrove-forest.jpg" alt="Logo" title="Logo"/>
+			<h2>Inventory System For Car Parts Information</h2>
+			<p>By Team KitKat</p>
+		</div>
+	</div>
+	<div id='cssmenu'>
+		<ul>
+		   <li><a href='index.html'><span>Home</span></a></li>
+		   <li class='active has-sub'><a href='index.html'><span>Insert</span></a>
+			  <ul>
+				 <li><a href='parts_information.html'><span>Parts Information</span></a></li>
+				 <li><a href='order_information.html'><span>Order Information</span></a></li>
+				 <li><a href='customer_information.html'><span>Customer Information</span></a></li>
+				 <li><a href='payment_info.html'><span>Payment Information</span></a></li>
+				 <li><a href='car_parts_installation.html'><span>Car parts Installation Information</span></a></li>
+				 <li><a href='order_delivery_information.html'><span>Order Delivery Information</span></a></li>
+				 <li><a href='price_information.html'><span>Parts Price Information</span></a></li>
+				 <li><a href='location_information.html'><span>Location Information</span></a></li>
+			  </ul>
+		   </li>
+		   <li class='active has-sub'><a href='index.html'><span>View</span></a>
+			  <ul>
+				 <li><a href='ViewPhp/partsview.php'><span>Parts Information</span></a></li>
+				 <li><a href='ViewPhp/orderview.php'><span>Order Information</span></a></li>
+				 <li><a href='ViewPhp/customerview.php'><span>Customer Information</span></a></li>
+				 <li><a href='ViewPhp/paymentview.php'><span>Payment Information</span></a></li>
+				 <li><a href='ViewPhp/car_parts_installationview.php'><span>Car parts installation Information</span></a></li>
+				 <li><a href='ViewPhp/order_deliveryview.php'><span>Order Delivery Information</span></a></li>
+				 <li><a href='ViewPhp/parts_priceview.php'><span>Parts Price Information</span></a></li>
+				 <li><a href='ViewPhp/locationview.php'><span>Parts Location Information</span></a></li>
+			  </ul>
+		   </li>
+		   <li class='active has-sub'><a href='index.html'><span>Update & Delete</span></a>
+			  <ul>
+				 <li><a href='parts_information_updatedelete.php'><span>Parts Information</span></a></li>
+				 <li><a href='orderinfoupdatedelete.php'><span>Order Information</span></a></li>
+				 <li><a href='customer_information_updatedelete.php'><span>Customer Information</span></a></li>
+				 <li><a href='payment_info_updatedelete.php'><span>Payment Information</span></a></li>
+				 <li><a href='car_parts_infoupdatedelete.php'><span>Car parts installation Information</span></a></li>
+				 <li><a href='order_delivery_info_updatedelete.php'><span>Order Delivery Information</span></a></li>
+				 <li><a href='price_infoupdatedelete.php'><span>Parts Price Information</span></a></li>
+				 <li><a href='location_info_updatedelete.php'><span>Parts Location Information</span></a></li>
+			  </ul>
+		   </li>
+		   <li class='active has-sub'><a href='index.html'><span>Search</span></a>
+			  <ul>
+				 <li><a href='parts_information_search.php'><span>Parta Information</span></a></li>
+				 <li><a href='order_information_search.php'><span>Order Information</span></a></li>
+				 <li><a href='customer_information_search.php'><span>Customer Information</span></a></li>
+				 <li><a href='payment_information_search.php'><span>Payment Information</span></a></li>
+				 <li><a href='parts_install_information_search.php'><span>Car parts installation Information</span></a></li>
+				 <li><a href='order_delivery_information_search.php'><span>Order Delivery Information</span></a></li>
+				 <li><a href='price_information_search.php'><span>Parts Price Information</span></a></li>
+				 <li><a href='location_information_search.php'><span>Parts Location Information</span></a></li>
+			  </ul>
+		   </li>
+		   <li class='last'><a href='About.html'><span>About</span></a></li>
+		</ul>
+	</div>
+	<div class="MainContent templete clear">
+	<form action="InsertPhp/car_parts_installation.php" method="post">
+ <fieldset>
+ 	<legend>
+ 		Car Parts Installaion Information
+ 	</legend>
+	<br>
+ 	Parts Code:<br>
+ 	<input type="text" name="parts_code">
+ 	<br>
+ 	Car Model:<br>
+ 	<input type="text" name="car_model">
+ 	<br>
+	Parts Price:<br>
+ 	<input type="text" name="parts_price">
+ 	<br>
+	Install Date:<br>
+ 	<input type="date" name="install_date">
+ 	<br>
+	
+
+ 	<input type="submit" name="submit" value="Submit"><br><br>
+	</div>
+</body>
+</html>

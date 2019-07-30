@@ -1,0 +1,95 @@
+*{
+	margin:0px;
+	padding:0px;
+	outline:0px;
+}
+body{
+	font-family:arial;
+	font-size:14px;
+	line-height:18px;
+	color:#000;
+}
+.templete{
+	width:960px;
+	margin:0 auto;
+}
+.clear{
+	overflow:hidden;
+}
+
+.HeaderSection{
+	background:#4A5646;
+	color:#FFF;
+}
+.logo{
+}
+.logo img{
+	width:300px;
+	height:95px;
+	float:left;
+	margin:10px;
+}
+.logo h2{
+	padding:15px;
+	font-size:30px;
+	font-style:bold;
+	display:block;
+	
+}
+.logo p{
+	display:block;
+	font-size:10px;
+}
+.NavSection {
+  background: #e6af4b;
+}
+.NavSection ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.NavSection ul li{
+	display:block;
+	float:left;
+}
+.NavSection ul li a {
+  color: #444;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px 48px;
+  text-decoration: none;
+  border:1px solid #c7902c;
+
+}
+.NavSection ul li a:hover {
+	background: #B7801C;
+	color: #FFF;
+	border: 1px solid #FDDF7B;
+}
+.MainContent{
+	
+	background:#4A5646;
+	color:#fff;
+	
+}
+.MainContent h2{
+	text-align:center;
+	margin-top:50px;
+}
+.MainContent p{
+	margin-top:10px;
+	text-align:justify;
+	padding:50px;
+	margin: 10px 127px;
+}
+.MainContent img{
+	
+	height:100px;
+	width:100px;
+	padding:10px;
+}
+.MainContent h3{
+	padding:25px;
+}
